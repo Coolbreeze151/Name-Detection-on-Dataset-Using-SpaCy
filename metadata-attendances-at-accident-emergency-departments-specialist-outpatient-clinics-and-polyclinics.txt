@@ -1,0 +1,60 @@
+# Metadata for Attendances at Accident & Emergency Departments, Specialist Outpatient Clinics, Polyclinics and Public Sector Dental Clinics
+---
+Identifier: '97046913-390b-418c-ba2a-4b345c1b27fb'
+Name: 'attendances-at-accident-emergency-departments-specialist-outpatient-clinics-and-polyclinics'
+Title: 'Attendances at Accident & Emergency Departments, Specialist Outpatient Clinics,
+  Polyclinics and Public Sector Dental Clinics'
+Description: 'Attendances at Accident & Emergency Departments, Specialist Outpatient
+  Clinics, Polyclinics and Public Sector Dental Clinics'
+Topics:
+  - 'Health'
+Keywords:
+  - 'accident'
+  - 'emergency'
+  - 'outpatient'
+  - 'polyclinics'
+  - 'specialist'
+Publisher:
+  Name: 'Ministry of Health'
+  Admin 1:
+    Name: 'Shanice Teo'
+    Department: 'Research and Statistics Division'
+    Email: 'shanice_teo@moh.gov.sg'
+  Admin 2:
+    Name: 'Koh Poh Yoke'
+    Department: 'Research and Statistics Division'
+    Email: 'koh_poh_yoke@moh.gov.sg'
+Sources:
+  - 'Ministry of Health'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2020-12-31'
+Last Updated: '2021-05-31T03:12:19.286503'
+Resources:
+  -
+    Identifier: 'fb781ab7-8e69-434e-b273-3afcc70e41fe'
+    Title: 'Outpatient Attendances (A&E, SOCs, Polyclinics, Dental)'
+    Url: 'https://storage.data.gov.sg/attendances-at-accident-emergency-departments-specialist-outpatient-clinics-and-polyclinics/resources/outpatient-attendances-a-e-socs-polyclinics-dental-2021-05-31T03-12-18Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2020-12-31'
+    Description: 'Attendances at Accident & Emergency Departments, Specialist Outpatient
+      Clinics, Polyclinics and Public Sector Dental Clinics'
+    Last Updated: '2021-05-31T03:12:18.815598'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'count'
+        Title: 'Count'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Attendances'
